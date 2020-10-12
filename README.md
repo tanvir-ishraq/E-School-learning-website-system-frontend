@@ -1,4 +1,4 @@
-# E-School-learning-website-system-frontend
+# E-School-learning-website-system-frontend. UI of website: https://drive.google.com/file/d/11F93JmB99UaClHiqmrKr_junmGmoktnJ/view?usp=sharing
 # instructions: click "code". 
 # choose "download zip". once downloaded extract it. 
 # open "main( homepage ).html" in browser to start navigating the full site.
