@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Classes and Objects in C++ </title>  <!-- edit this -->
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+    
+	<body>
+		<div id="page">
+			<header id="header">
+				<div id="header-inner">	
+					<div id="logo">   
+						<h1><a href="../main(%20homepage%20).html">Tutorials<span>Hub</span></a></h1>
+					</div>
+					<div id="top-nav">   
+						<ul>
+						<li><a href="../about us.html">About</a></li>
+						<li><a href="../contact%20us.html">Contact</a></li>
+						<li><a href="../faq.html">FAQ</a></li>
+						<li><a href="../help.html">Help</a></li>
+						</ul>
+					</div>
+					<div class="clr"></div>
+				</div>
+			</header>
+            
+			<div class="feature"> 
+				<div class="feature-inner">
+				<h1>The C++ Tutorial</h1>
+				</div>
+			</div>
+		
+            
+			<div id="content">
+				<div id="content-inner">
+				
+					<main id="contentbar">
+						<div class="article">  <!--Edit this-->
+                            
+                            <h2>Introduction to Classes and Objects </h2>
+                            <p>The classes are the most important feature of C++ that leads to Object Oriented programming. Class is a user defined data type, which holds its own data members and member functions, which can be accessed and used by creating instance of that class.</p>
+                
+                            <p>The variables inside class definition are called as data members and the functions are called member functions.</p>
+
+                            <p>For example : Class of birds, all birds can fly and they all have wings and beaks. So here flying is a behavior and wings and beaks are part of their characteristics. And there are many different birds in this class with different names but they all posses this behavior and characteristics.</p>
+
+                            <p>Similarly, class is just a blue print, which declares and defines characteristics and behavior, namely data members and member functions respectively. And all objects of this class will share these characteristics and behavior.</p>
+
+                            <h3>More about Classes</h3>
+                            <ol>
+                                <li>Class name must start with an uppercase letter(Although this is not mandatory). If class name is made of more than one word, then first letter of each word must be in uppercase.</li>
+
+                                <li>Classes contain, data members and member functions, and the access of these data members and variable depends on the access specifiers (discussed in next section).</li>
+
+                                <li>Class's member functions can be defined inside the class definition or outside the class definition.</li>
+
+                                <li>Class in C++ are similar to structures in C, the only difference being, class defaults to private access control, where as structure defaults to public.</li>
+
+                                <li>All the features of OOPS, revolve around classes in C++. Inheritance, Encapsulation, Abstraction etc.</li>
+
+                                <li>Objects of class holds separate copies of data members. We can create as many objects of a class as we need.</li>
+
+                                <li>Classes do posses more characteristics, like we can create abstract classes, immutable classes, all this we will study later.</li>
+                            </ol>
+
+
+                            <h3>Objects</h3>
+                            <p>Class is mere a blueprint or a template. No storage is assigned when we define a class. Objects are instances of class, which holds the data variables declared in class and the member functions work on these class objects.</p>
+
+                            <p>Each object has different data variables. Objects are initialised using special class functions called Constructors. We will study about constructors later.</p>
+
+                            <p>And whenever the object is out of its scope, another special class member function called Destructor is called, to release the memory reserved by the object. C++ doesn't have Automatic Garbage Collector like in JAVA, in C++ Destructor performs this task.</p>
+
+                            <p style="font-family: courier; line-height: 120%">
+                            class Abc<br>
+                            {<br>
+                                int x;<br>
+                                void display(){}<br>
+                            };<br><br>
+
+                            int main()<br>
+                            {<br> Abc obj;<br> }<br>
+                            </p>
+						</div>
+					</main>
+					
+					<nav id="sidebar">
+						<div class="widget">   
+							<h3 style="text-decoration: underline;">Contents of the tutorial</h3>
+							<ul>
+							<li><a href="cpp1.html">1. OOPS concepts basic</a></li>
+							<li><a href="cpp2.html">2. Classes and Objects</a></li>
+							<li><a href="cpp3.html">3. Inheritance</a></li>
+							<li><a href="cpp4.html">4. Function Overloading</a></li>
+							<li><a href="cpp5.html">5. Operator Overloading</a></li>
+                            </ul>
+                        </div>
+					</nav>
+					
+                            
+					<div class="clr"></div>
+				</div>
+			</div>
+		
+			<div id="footerblurb">
+				<div id="footerblurb-inner">
+				
+					<div class="column">
+						<h2><span>Feedback</span></h2>
+						<p >Feel free to contact us and let us know what you think or if you have anything else to say. We'd love to know what you think about our website. You can contact us at tanvirishraqkhan@gmail.com</p>
+					</div>	
+					<div class="column">
+						<h2><span>Tutorials</span></h2>
+						<ul style="font-family: verdana;">
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>CSS</li>
+                        </ul>
+                        <p style="font-family: verdana;"> Login/Register to get access to the tutorials for free!</p>
+					</div>
+					<div class="column">
+						<h2><span>About website</span></h2>
+						
+                        <ul style="font-family: verdana; text-decoration: none; ">
+                            <li><a href="../about us.html" style="text-decoration: none;">Our team</a></li>
+                            <li><a href="../contact us.html" style="text-decoration: none;">Contact Us</a></li>
+                            <li><a href="../faq.html" style="text-decoration: none;">FAQ</a></li>
+                            <li><a href="../help.html" style="text-decoration: none;">Help</a></li>
+                        </ul>
+					</div>	
+					<div class="clr"></div>
+				</div>
+			</div>
+        
+        
+			<footer id="footer">
+				<div id="footer-inner">
+					<p>Copyright &copy; TutorialsHub.   All rights reserved.
+					<div class="clr"></div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

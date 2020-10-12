@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Inheritance in C++ and Object Oriented Programming</title>  <!-- edit this -->
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+    
+	<body>
+		<div id="page">
+			<header id="header">
+				<div id="header-inner">	
+					<div id="logo">   
+						<h1><a href="../main(%20homepage%20).html">Tutorials<span>Hub</span></a></h1>
+					</div>
+					<div id="top-nav">   
+						<ul>
+						<li><a href="../about us.html">About</a></li>
+						<li><a href="../contact%20us.html">Contact</a></li>
+						<li><a href="../faq.html">FAQ</a></li>
+						<li><a href="../help.html">Help</a></li>
+						</ul>
+					</div>
+					<div class="clr"></div>
+				</div>
+			</header>
+            
+			<div class="feature"> 
+				<div class="feature-inner">
+				<h1>The C++ Tutorial</h1>
+				</div>
+			</div>
+		
+            
+			<div id="content">
+				<div id="content-inner">
+				
+					<main id="contentbar">
+						<div class="article">  <!--Edit this-->
+                            <h2>Overview of Inheritance</h2>
+                            <p>Inheritance is the capability of one class to acquire properties and characteristics from another class. The class whose properties are inherited by other class is called the Parent or Base or Super class. And, the class which inherits properties of other class is called Child or Derived or Sub class. <br>
+                            Inheritance makes the code reusable. When we inherit an existing class, all its methods and fields become available in the new class, hence code is reused. <br>
+                            NOTE : All members of a class except Private, are inherited</p>
+                            
+                            <h3>Purpose of Inheritance</h3>
+                            <ol>
+                                <li>Code Reusability</li>
+                                <li>Method Overriding (Hence, Runtime Polymorphism.)</li>
+                                <li>Use of Virtual Keyword</li>
+                            </ol>
+                            
+                            <h3>Basic Syntax of Inheritance</h3>
+                            <p style="font-family: courier">class Subclass_name : access_mode Superclass_name</p>
+                            <p>While defining a subclass like this, the super class must be already defined or atleast declared before the subclass declaration.<br>
+                            Access Mode is used to specify, the mode in which the properties of superclass will be inherited into subclass, public, privtate or protected.</p>
+                            
+                            <h2>Example of Inheritance</h2><br>
+                            <img src="cpp3.jpg">
+                            <p style="font-family: courier; line-height: 120%">
+                            class Animal<br>
+                            {<br>
+                              public:<br>
+                              int legs = 4;<br>
+                            };<br><br>
+
+                            class Dog : public Animal<br>
+                            {<br>
+                              public:<br>
+                              int tail = 1;<br>
+                            };<br><br>
+
+                            int main()<br>
+                            {<br>
+                             Dog d;<br>
+                             cout << d.legs;<br>
+                             cout << d.tail;<br>
+                            }<br>
+                            </p>
+                            
+                            <p>Output :</p>
+                            <p style="font-family: courier; line-height: 110%"> 4 1 </p>
+                            
+                            
+						</div>
+					</main>
+					
+					<nav id="sidebar">
+						<div class="widget">   
+							<h3 style="text-decoration: underline;">Contents of the tutorial</h3>
+							<ul>
+							<li><a href="cpp1.html">1. OOPS concepts basic</a></li>
+							<li><a href="cpp2.html">2. Classes and Objects</a></li>
+							<li><a href="cpp3.html">3. Inheritance</a></li>
+							<li><a href="cpp4.html">4. Function Overloading</a></li>
+							<li><a href="cpp5.html">5. Operator Overloading</a></li>
+                            </ul>
+						</div>
+					</nav>
+					
+                            
+					<div class="clr"></div>
+				</div>
+			</div>
+		
+			<div id="footerblurb">
+				<div id="footerblurb-inner">
+				
+					<div class="column">
+						<h2><span>Feedback</span></h2>
+						<p >Feel free to contact us and let us know what you think or if you have anything else to say. We'd love to know what you think about our website. You can contact us at tanvirishraqkhan@gmail.com</p>
+					</div>	
+					<div class="column">
+						<h2><span>Tutorials</span></h2>
+						<ul style="font-family: verdana;">
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>CSS</li>
+                        </ul>
+                        <p style="font-family: verdana;"> Login/Register to get access to the tutorials for free!</p>
+					</div>
+					<div class="column">
+						<h2><span>About website</span></h2>
+						
+                        <ul style="font-family: verdana; text-decoration: none; ">
+                            <li><a href="../about us.html" style="text-decoration: none;">Our team</a></li>
+                            <li><a href="../contact us.html" style="text-decoration: none;">Contact Us</a></li>
+                            <li><a href="../faq.html" style="text-decoration: none;">FAQ</a></li>
+                            <li><a href="../help.html" style="text-decoration: none;">Help</a></li>
+                        </ul>
+					</div>	
+					<div class="clr"></div>
+				</div>
+			</div>
+        
+        
+			<footer id="footer">
+				<div id="footer-inner">
+					<p>Copyright &copy; TutorialsHub.   All rights reserved.
+					<div class="clr"></div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
